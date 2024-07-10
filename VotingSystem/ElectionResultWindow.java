@@ -13,7 +13,7 @@ public class ElectionResultWindow extends JFrame {
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 
         // Create main panel with background image
-        JPanel mainPanel = new ImagePanel(new ImageIcon("C:\\Users\\abdul\\OneDrive\\Pictures\\Voting System Project pics\\election result.jpg").getImage());
+        JPanel mainPanel = new ImagePanel(new ImageIcon("Add path to the background image for this frame.").getImage());
         mainPanel.setLayout(new BoxLayout(mainPanel, BoxLayout.Y_AXIS));
         mainPanel.setBorder(new EmptyBorder(10, 10, 10, 10));
 
