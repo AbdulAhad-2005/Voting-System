@@ -189,7 +189,7 @@ public class AddVoter extends JFrame {
 
     private void loadBackgroundImage() {
         try {
-            backgroundImage = ImageIO.read(new File("C:\\Users\\abdul\\OneDrive\\Pictures\\Voting System Project pics\\41688014.jpg"));
+            backgroundImage = ImageIO.read(new File("Add path to the image"));
         } catch (Exception e) {
             e.printStackTrace();
         }
