@@ -24,7 +24,7 @@ public class GUI extends JFrame {
 
     private void loadBackgroundImage() {
         try {
-            backgroundImage = ImageIO.read(new File("C:\\Users\\abdul\\OneDrive\\Pictures\\Voting System Project pics\\1.jpg"));
+            backgroundImage = ImageIO.read(new File("Add path to the background image."));
         } catch (Exception e) {
             e.printStackTrace();
         }
