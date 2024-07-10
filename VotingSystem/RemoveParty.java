@@ -11,7 +11,7 @@ public class RemoveParty extends JFrame {
     RemoveParty() {
     	super("Removing Party");
         // Load the background image
-        backgroundImage = new ImageIcon("C:\\Users\\abdul\\OneDrive\\Pictures\\Voting System Project pics\\41688014.jpg").getImage();
+        backgroundImage = new ImageIcon("Add the background image.").getImage();
         createAndShowGUI();
     }
 
