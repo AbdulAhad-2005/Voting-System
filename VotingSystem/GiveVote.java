@@ -9,10 +9,12 @@ import java.util.Random;
 public class GiveVote extends JFrame {
     private JLabel imageLabel;
     private String[] imagePaths = {
-            "C:\\Users\\abdul\\OneDrive\\Pictures\\Voting System Project pics\\quote 1.png",
-            "C:\\Users\\abdul\\OneDrive\\Pictures\\Voting System Project pics\\quote 2.png",
-            "C:\\Users\\abdul\\OneDrive\\Pictures\\Voting System Project pics\\quote 3.png",
-            "C:\\Users\\abdul\\OneDrive\\Pictures\\Voting System Project pics\\quote 4.png"
+        // Add path to the images of famous election quotes, so that voter feels good to vote.
+        // these are just sample images.
+            // "C:\\Users\\abdul\\OneDrive\\Pictures\\Voting System Project pics\\quote 1.png",
+            // "C:\\Users\\abdul\\OneDrive\\Pictures\\Voting System Project pics\\quote 2.png",
+            // "C:\\Users\\abdul\\OneDrive\\Pictures\\Voting System Project pics\\quote 3.png",
+            // "C:\\Users\\abdul\\OneDrive\\Pictures\\Voting System Project pics\\quote 4.png"
     };
     private String title;
     private String region;
