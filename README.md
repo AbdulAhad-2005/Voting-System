@@ -25,7 +25,8 @@ Ensure you have the following installed:
 ### 🏛 Database Setup
 
 1. Create a MySQL database named **`Voting-System`**.
-2. Execute the provided SQL script (`voting_system.sql`) to set up tables and insert sample data.
+2. Execute the provided SQL script (`Database schema.sql`) to set up tables and design of database.
+3. Also execute the provided SQL script (`Sample data.sql`) to insert sample data(optional: you can use your own sample data).
 
 ### 🔗 JDBC Driver Configuration
 
