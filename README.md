@@ -38,7 +38,9 @@ Ensure you have the following installed:
 
 ### 🚀 Running the Application
 1. **Upload Background Images**:
-   - Upload some beautiful background images that match to the template of the tab in almost every file at the designated spot.
+   - Upload the path to beautiful background images that match to the template of the tab in almost every file at the
+   ```backgroundImage = ImageIO.read(new File("Add path to the background image."));```
+   line of code at the place of "Add path to the background image."
    
 2. **Upload Party Images**:
    - Run the `addPartyImages.java` file to store party symbols in the database.
