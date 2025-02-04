@@ -23,28 +23,28 @@ The project is organized into the following directories:
 - `Database schema.sql`: SQL script to create the necessary tables for the `Voting-System` database.
 - `Sample data.sql`: SQL script to insert sample data into the `Voting-System` database.
 
-## Voting System (Java Code)
-### Authentication & User Management
+### Voting System (Java Code)
+#### Authentication & User Management
 - **AuthenticationGui.java** - Handles user authentication, login, and validation.
 - **VoterCredentials.java** - Checks voter login credentials from database.
 
-### Election & Voting Process
+#### Election & Voting Process
 - **GiveVote.java** - Allows a voter to cast a vote for a selected candidate.
 - **EndElection.java** - Ends the election process and prevents further voting.
 - **ElectionTypeSelection.java** - Allows selection of the type of election (e.g., Federal, Provincial or Senate).
 
-### Candidate & Party Management
+#### Candidate & Party Management
 - **AddCandidate.java** - Enables the admin to add candidates to the election.
 - **RemoveCandidate.java** - Allows the admin to remove a candidate from the election.
 - **AddParty.java** - Enables the admin to register new political parties.
 - **RemoveParty.java** - Allows the admin to delete a registered political party.
 - **AddingPartyImages.java** - Uploads party symbols to the database of the initial parties which are already included in sample data of database and have not been added through application gui.
 
-### Voter Management
+#### Voter Management
 - **AddVoter.java** - Registers a new voter to the system.
 - **RemoveVoter.java** - Removes an existing voter from the system.
 
-### Others
+#### Others
 - **GUI.java** - Acts as the main window in which there are buttons to start election or to add election credentials.
 - **VotingInterface.java** - Provides the voting interface where users can select candidates.
 - **ElectionResultWindow.java** - Displays the election results after voting ends.
