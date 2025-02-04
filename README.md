@@ -11,6 +11,34 @@ This project was developed as a **semester project**, inspired by the democratic
 - 🗳 **Voting Process**: Cast votes and store them in the database.
 - 📊 **Result Compilation**: Calculate and display election results based on votes.
 
+## 📂 Project Structure
+
+The project is organized into the following directories:
+
+- **Voting-System Database**: Contains the SQL scripts for setting up the database.
+- **VotingSystem**: Contains the Java source code for the application.
+
+### Voting-System Database
+
+- `Database schema.sql`: SQL script to create the necessary tables for the `Voting-System` database.
+- `Sample data.sql`: SQL script to insert sample data into the `Voting-System` database.
+
+### VotingSystem
+
+- `addPartyImages.java`: Uploads party symbols to the database of the initial parties which are already included in sample data of database and have not been added through application gui.
+- `authenticateGUI.java`: Launches the authentication interface for user login.
+- `VotingSystem.java`: The main class that initializes and runs the voting system application.
+- `DatabaseConnection.java`: Manages the connection between the Java application and the MySQL database.
+- `Party.java`: Represents a political party entity.
+- `Candidate.java`: Represents a candidate entity associated with a party.
+- `Voter.java`: Represents a voter entity.
+- `Admin.java`: Represents an administrator entity with privileges to manage the system.
+- `VotingGUI.java`: Provides the graphical user interface for the voting process.
+- `ResultsGUI.java`: Displays the election results to the user.
+- `PartyManagementGUI.java`: Interface for administrators to add and manage political parties.
+- `CandidateManagementGUI.java`: Interface for administrators to add and manage candidates.
+- `VoterRegistrationGUI.java`: Interface for registering new voters into the system.
+
 ## 📌 Prerequisites
 
 Ensure you have the following installed:
