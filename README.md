@@ -37,11 +37,13 @@ Ensure you have the following installed:
    - Apply and Close.
 
 ### 🚀 Running the Application
-
-1. **Upload Party Images**:
+1. **Upload Background Images**:
+   - Upload some beautiful background images that match to the template of the tab in almost every file at the designated spot.
+   
+2. **Upload Party Images**:
    - Run the `addPartyImages.java` file to store party symbols in the database.
 
-2. **Launch Voting System**:
+3. **Launch Voting System**:
    - Run `authenticateGUI.java` to start the application.
 
 ## 📖 Usage Guide
